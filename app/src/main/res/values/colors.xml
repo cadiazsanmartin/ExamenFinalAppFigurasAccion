@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_primary_color">#FFA000</color>
+    <color name="light_primary_color">#FFECB3</color>
+    <color name="primary_color">#FFC107</color>
+    <color name="accent_color">#E040F8</color>
+    <color name="text_icons_color">#212121</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="divider_color">#BDBDBD</color>
+</resources>

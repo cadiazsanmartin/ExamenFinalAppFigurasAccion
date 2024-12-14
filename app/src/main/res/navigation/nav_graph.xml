@@ -1,0 +1,22 @@
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Fragmento principal -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.appfigurasaccion.ui.MainFragment"
+        android:label="Listado de Figuras">
+        <action
+            android:id="@+id/action_mainFragment_to_figuraDetailFragment"
+            app:destination="@id/figuraDetailFragment" />
+    </fragment>
+
+    <!-- Fragmento de detalles -->
+    <fragment
+        android:id="@+id/figuraDetailFragment"
+        android:name="com.example.appfigurasaccion.adapter.FiguraDetailFragment"
+        android:label="Detalles de la Figura" />
+</navigation>

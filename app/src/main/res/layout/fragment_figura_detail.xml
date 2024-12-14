@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen de la figura -->
+    <ImageView
+        android:id="@+id/figuraImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/figura_image"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nombre de la figura -->
+    <TextView
+        android:id="@+id/figuraName"
+        android:text="Nombre de la figura"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Descripción de la figura -->
+    <TextView
+        android:id="@+id/figuraDescripcion"
+        android:text="Descripción de la figura"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Fecha de Creación -->
+    <TextView
+        android:id="@+id/figuraFechaCreacion"
+        android:text="Fecha de creación: "
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Origen -->
+    <TextView
+        android:id="@+id/figuraOrigen"
+        android:text="Origen: "
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Precio -->
+    <TextView
+        android:id="@+id/figuraPrecio"
+        android:text="Precio: "
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Colores -->
+    <TextView
+        android:id="@+id/figuraColores"
+        android:text="Colores: "
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botón para enviar correo -->
+    <Button
+        android:id="@+id/sendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/accent_color"
+        android:textColor="@color/text_icons_color" />
+</LinearLayout>
